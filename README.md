@@ -1,0 +1,2 @@
+# consul-manager
+consul deregister
