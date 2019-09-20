@@ -9,15 +9,7 @@ centos7.5
 
 python2.7
 
-urllib2
-
-json
-
-time
-
-os
-
-ast
+urllib2、json、time、os、ast
 
 # 三、安装
 1.下载项目
