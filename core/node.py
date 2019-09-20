@@ -36,7 +36,7 @@ def Save_Node(data=None):
     :param data: Search_Node(data=res2)返回的节点数据
     :return:
     """
-    datapath=configer.Data_DIR+'\\node.json'
+    datapath=configer.Data_DIR+'/node.json'
     f = open(datapath, "r+")
     f.truncate()
     dict_json = json.loads(data)

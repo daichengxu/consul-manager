@@ -13,7 +13,7 @@ def Run_log(data=None):
     :return:
     """
     runtime = 'Date: %s' % time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-    datapath=configer.Data_DIR+"\\run.log"
+    datapath=configer.Data_DIR+"/run.log"
     try:
         with open(datapath, 'a+') as f:
             f.write(runtime + '\n')
@@ -45,7 +45,7 @@ def Check_Service():
     获取ServiceID,Node
     :return: dict
     """
-    datapath=configer.Data_DIR+'\\data.json'
+    datapath=configer.Data_DIR+'/data.json'
     service_dict={}
     with open(datapath, 'r') as f:
         service_dict_list=f.readlines()
@@ -62,7 +62,7 @@ def Check_NodeIP(name=None):
     :param name: 传入ServiceID
     :return: 返回consul ip地址
     """
-    datapath=configer.Data_DIR+'\\node.json'
+    datapath=configer.Data_DIR+'/node.json'
     with open(datapath, 'r') as f:
         node_dict_list=f.readlines()
     for data in node_dict_list:

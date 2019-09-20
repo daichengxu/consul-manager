@@ -36,7 +36,7 @@ def Save_Service(data=None):
     :param data: Search_Service(data=res2)返回的节点数据
     :return:
     """
-    datapath=configer.Data_DIR+'\\data.json'
+    datapath=configer.Data_DIR+'/data.json'
     f = open(datapath, "r+")
     f.truncate()
     dict_json = json.loads(data)
