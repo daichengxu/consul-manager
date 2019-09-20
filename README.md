@@ -25,3 +25,29 @@ Node_IP='10.0.0.x'
 python /opt/consul-manager/run.py
 
 # 六、目录结构
+./consul-manager
+├── config
+│   ├── configer.py
+│   ├── configer.pyc
+│   ├── __init__.py
+│   └── __init__.pyc
+├── core
+│   ├── deregister.py
+│   ├── deregister.pyc
+│   ├── __init__.py
+│   ├── __init__.pyc
+│   ├── node.py
+│   ├── node.pyc
+│   ├── service.py
+│   ├── service.pyc
+│   ├── views.py
+│   └── views.pyc
+├── data
+│   ├── data.json
+│   ├── __init__.py
+│   ├── node.json
+│   └── run.log
+├── __init__.py
+├── LICENSE
+├── README.md
+└── run.py
