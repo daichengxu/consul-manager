@@ -19,7 +19,7 @@ def Run():
             consulname = service_dict.get(serviceid)
             consulip = views.Check_NodeIP(name=consulname)
             deregister.Deregister(NodeIP=consulip, ServiceID=serviceid)
-            exit(0)
+        exit(0)
     elif selector == 'n':
         print "exit system."
         exit(0)
