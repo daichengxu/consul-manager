@@ -34,6 +34,7 @@ python /opt/consul-manager/run.py
 
 ##2
 chmod +x /opt/consul-manager/run.py
+
 /opt/consul-manager/run.py
 
 # 六、目录结构
