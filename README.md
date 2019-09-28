@@ -31,6 +31,7 @@ Node_IP='10.0.0.x'
 # 五、运行项目
 ##1
 python /opt/consul-manager/run.py
+
 ##2
 chmod +x /opt/consul-manager/run.py
 /opt/consul-manager/run.py
