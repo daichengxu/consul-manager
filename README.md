@@ -29,9 +29,9 @@ Data_DIR=os.path.join(BASE_DIR, 'data')
 Node_IP='10.0.0.x'
 
 # 五、运行项目
-1)
+##1
 python /opt/consul-manager/run.py
-2)
+##2
 chmod +x /opt/consul-manager/run.py
 /opt/consul-manager/run.py
 
